@@ -1,0 +1,13 @@
+/* Translate */
+.h1{
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+    transform: translate(100px, 50px);
+    /* OR */
+    /* transform: translateY(50px);
+    transform: translateX(100px); */ 
+}
+
+
+

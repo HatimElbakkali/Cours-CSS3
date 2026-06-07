@@ -1,0 +1,16 @@
+table{
+    width: 100%;
+    border-spacing: 1px;
+}
+
+th{
+    background: rgb(44, 64, 126);
+    height: 40px;
+    border: 5px black solid;
+}
+td{
+    background: rgb(146, 57, 57);
+    height: 40px;
+    text-align: center;
+    border: 5px black solid;
+}

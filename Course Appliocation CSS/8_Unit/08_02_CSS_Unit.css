@@ -1,0 +1,7 @@
+div{
+    background: red;
+}
+p{
+    background: blue;
+    width: calc(100% - 50px)
+}

@@ -1,0 +1,23 @@
+/* Originally Block */
+h1{
+    display: inline;
+    background-color: blue;
+}
+/* Originally Inline */
+span{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: chartreuse;
+    /* display: ; */
+}
+
+/* Inline-Block */
+p{
+    display: inline-block;
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+}

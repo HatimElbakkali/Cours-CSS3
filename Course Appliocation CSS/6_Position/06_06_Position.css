@@ -1,0 +1,57 @@
+/* .parent{
+    background-color: skyblue;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+
+}
+.parent div{
+    height: 50px;
+}
+
+.one{
+    background: tomato;
+}
+
+.two{
+    background: gold;
+    position: relative;
+    top: 190px;
+    left: 300px;
+}
+
+.three{
+    background: darkblue;
+} */
+
+
+
+
+.parent1{
+    background-color: skyblue;
+    height: 2000px;
+    width: 200px;
+    padding: 10px;
+
+}
+.parent1 div{
+    height: 50px;
+}
+
+.one2{
+    background: tomato;
+}
+
+.two3{
+    background: gold;
+    position: fixed;
+    top: 190px;
+    left: 300px;
+    
+}
+
+.three4{
+    background: darkblue;
+    position: absolute;
+    top: 0;
+}

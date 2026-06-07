@@ -1,0 +1,49 @@
+/* char7 */
+
+/* @media (max-width:600px) {
+    body{
+        background-color: brown;
+    }
+}
+
+@media (min-width:601px)and(max-width:950px){
+    body{
+        background-color: aqua;
+    }
+} */
+
+/* application */
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.parent .item{
+    background-color: green;
+    height: 200px;
+    width: 150px;
+}
+
+
+@media (max-width:600px) {
+    .parent{
+        flex-direction: column; 
+    }
+    .item{
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) and (max-width:992px){
+    .parent{
+        flex-wrap: wrap;
+    }
+
+    .item{
+        background-color: black;
+        width: 49%;
+    }
+}

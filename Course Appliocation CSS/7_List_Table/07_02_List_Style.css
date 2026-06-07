@@ -1,0 +1,8 @@
+ul, ol{
+    list-style: square;
+    list-style-position: outside;
+    list-style-type: georgian;
+}
+li{
+    background: green;
+}

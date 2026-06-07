@@ -1,0 +1,20 @@
+.Hatim{
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: fantasy; 
+}
+.Bouchra{
+    /* 
+    font-style font-variant font-weight font-size font-family
+    */
+    font: normal small-caps bold 40px fantasy;
+}
+
+.Rachid{
+    /* 
+    font-style font-variant font-weight font-size/line height font-family
+    */
+    font: normal small-caps bold 30px/60px fantasy;
+}

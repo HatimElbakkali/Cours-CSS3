@@ -1,0 +1,8 @@
+div{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(0, 47, 255);
+    transform: skew(20deg, 0);
+    /* transform: skewX();
+    transform: skewY(); */
+}

@@ -1,0 +1,54 @@
+/* 1- [attr] */
+[type]{
+    background-color: aqua;
+}
+
+/* 2- element[att] */
+input[type]{
+    background-color: chartreuse;
+}
+
+/* 3-[attr="value" */
+[type="text"]{
+    background-color: blueviolet;
+}
+
+/* 4- element [attr="value"] */
+button[type="submit"]{
+    background-color: rgb(255, 0, 115);
+}
+
+/* 5-[att ^="value"] start with */
+[href^="https"]{
+    color: green;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* 6-[att $="value"] end with */
+[href$="Account"]{
+    color: rgb(1, 1, 107);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* 7-[att *="value"] containing a specified value */
+[href*="https://www.myway.ac.ma/ar"]{
+    color: rgb(16, 87, 67);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* 8-[att ~="value"] containing a specified word */
+[href~="Hatim"]{
+    color: rgb(53, 15, 19);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* 9-[att ="value" i] case sensitive */
+[href="BOUChra" i]{
+    color: rgb(255, 0, 157);
+    text-decoration: none;
+    font-size: 40px;
+}

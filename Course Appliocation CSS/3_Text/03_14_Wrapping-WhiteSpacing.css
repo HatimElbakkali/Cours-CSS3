@@ -1,0 +1,20 @@
+/* Warpping */
+h2{
+    width: 200px;
+    background-color: blue;
+    /* white-space: nowrap; */
+    
+}
+
+pre{
+    word-wrap: break-word;
+}
+
+/* white space */
+
+div{
+    height: 200px;
+    background-color: aqua;
+    white-space: pre-line;
+}
+

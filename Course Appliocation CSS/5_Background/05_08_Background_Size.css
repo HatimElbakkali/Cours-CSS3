@@ -1,0 +1,10 @@
+div{
+    height: 900px;
+    border: 6px red solid;
+    background-image: url(Images/Leon.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    /* background-size: width hight; */
+    /* background-size: 1500px 150px; */
+    background-size: contain;
+}

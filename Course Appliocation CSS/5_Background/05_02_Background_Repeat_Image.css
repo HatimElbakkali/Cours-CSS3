@@ -1,0 +1,13 @@
+.HTM{
+    width: 10000px;
+    height: 5000px;
+    /* background-color: brown; */
+    background-image: url(Images/Leon.jpg);
+    background-repeat: no-repeat;
+} 
+
+
+body{
+    background-image: url(Images/images.png);
+    background-repeat: repeat;
+}

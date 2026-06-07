@@ -1,0 +1,45 @@
+.gh{
+    font-weight: inherit ;
+}
+.hh{
+    font-weight:bolder ;
+}
+.hoho{
+    font-weight: lighter;
+}
+
+
+p{
+    font-family: system-ui,
+}
+
+.text1{
+    font-weight: 100;
+}
+.text2{
+    font-weight: 200;
+}
+.text3{
+    font-weight: 300;
+}
+
+/* Normal */
+.text4{
+    font-weight: 400;
+}
+.text5{
+    font-weight: 500;
+}
+.text6{
+    font-weight: 600;
+}
+/* Bold */
+.text7{
+    font-weight: 700;
+}
+.text8{
+    font-weight: 800;
+}
+.text9{
+    font-weight: 900;
+}

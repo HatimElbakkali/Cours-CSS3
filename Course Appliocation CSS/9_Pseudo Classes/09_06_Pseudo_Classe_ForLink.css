@@ -1,0 +1,45 @@
+input{
+    border: 2px solid grey;
+    outline: invert;
+    border-radius: 5px;
+    padding: 5px;
+}
+input:focus{
+    /* border: 2px solid rgb(255, 0, 0); */
+    border-color: blue;
+    outline: none;
+}
+/* input:disabled{
+    background-color: chartreuse;
+} */
+/* input:enabled{
+    background-color: blueviolet;
+} */
+input:required{
+    border-color: greenyellow;
+    outline: none;
+}
+input:invalid{
+    border-color: rgb(255, 0, 0);
+    outline: none;
+}
+input:valid{
+    border-color: rgb(10, 99, 48);
+    outline: none;
+}
+
+input:focus{
+    background-color: gold;
+}
+
+.fatiha{
+    width: 50px;
+    height: 25px;
+}
+
+.fatiha:checked{
+    width: 50px;
+    height: 25px;
+    position: absolute;
+    left: 350px;
+}

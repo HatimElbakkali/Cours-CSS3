@@ -1,0 +1,6 @@
+.cls{
+    color: blue;
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+}

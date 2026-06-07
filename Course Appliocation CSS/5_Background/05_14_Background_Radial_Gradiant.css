@@ -1,0 +1,5 @@
+body{
+    width: 1250px;
+    height: 530px;
+    background-image:radial-gradient( 900px at center, blue, yellow) 
+}

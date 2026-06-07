@@ -1,0 +1,6 @@
+body{
+    height: 700px;
+    width: 1250px;
+    /* background-image:linear-gradient(90deg, #4b6cb7 0%, #182848 100%) */
+    background-image:linear-gradient(180deg, rgb(9, 163, 101), transparent );
+}

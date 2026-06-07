@@ -1,0 +1,11 @@
+.first{
+    font-size: 30px;
+    background-color: blue;
+    visibility: hidden;
+    /* display: none; */
+}
+.second{
+    opacity: 0.5 ;
+    font-size: 30px;
+    background-color: red;
+}

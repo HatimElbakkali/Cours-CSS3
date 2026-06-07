@@ -1,0 +1,17 @@
+
+/* 
+Normal Size => 16px = 1em = 100%
+H1 => 32px => 2en => 200%
+*/
+.a{
+    font-size: 10px;
+}
+.b{
+    font-size: 20px;
+}
+.c{
+    font-size: 30px;
+}
+.d{
+    font-size: 90px;
+}

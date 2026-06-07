@@ -1,0 +1,9 @@
+/* sibling al-mojawir */
+h2 + p{
+    color: blue;
+}
+
+/* General Sibling */
+h3 ~ .jjj{
+    color: brown;
+}

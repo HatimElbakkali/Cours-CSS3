@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    border: 15px red dotted;
+    background-image: url(Images/Leon.jpg);
+    background-repeat:no-repeat ;
+    background-position: right;
+    /* background-size: width hight; */
+    /* background-size: 1500px 150px; */
+    background-size: contain;
+    padding: 15px;
+    background-origin: border-box;
+}

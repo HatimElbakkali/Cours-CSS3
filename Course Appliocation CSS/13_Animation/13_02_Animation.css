@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+body{
+    background-color: black;
+}
+
+/* .hatim{
+    animation-name: Hatim;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+@keyframes Hatim{
+    0%{
+        background-color: blue;
+        width: 0%;
+    }
+
+    20%{
+        background-color: red;
+    }
+    100%{
+        background-color: green;
+        width: 100%;
+    }
+} */
+
+/* AL-Mota7arika */
+
+.bouchra{
+    animation-name: bouchra;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-fill-mode: both;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+
+@keyframes bouchra{
+    0%{
+        translate: 0 0;
+        background-color: rgb(0, 255, 128);
+    }
+
+    25%{
+        translate: 0 400px;
+        background-color: blue;
+        rotate: 90deg;
+    }
+    50%{
+        translate: 400px 400px;
+        background-color: green;
+        rotate: 180deg;
+    }
+    75%{
+        translate: 400px 0;
+        background-color: yellow;
+        rotate: 270deg;
+    }
+    100%{
+        translate: 0 0;
+        background-color: rgb(38, 0, 255);
+        rotate: 360deg;
+    }
+}
+
+div:hover{
+    animation-play-state: paused;
+    cursor: cell;
+}
+
+

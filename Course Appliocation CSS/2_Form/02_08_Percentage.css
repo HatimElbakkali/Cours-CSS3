@@ -1,0 +1,11 @@
+div{
+    background-color: rgb(0, 255, 221);
+    width: 300px;
+    height: 200px;
+}
+
+h3{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}

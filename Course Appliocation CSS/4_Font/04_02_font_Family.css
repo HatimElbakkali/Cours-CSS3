@@ -1,0 +1,8 @@
+/* Fonts */
+@import 
+url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=BBH+Sans+Hegarty&display=swap');
+h3{
+    text-align: center;
+    /* font-family: "BBH Sans Hegarty", sans-serif; */
+    font-family:  "BBH Sans Bartle", sans-serif;
+}

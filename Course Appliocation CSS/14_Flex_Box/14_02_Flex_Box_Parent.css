@@ -1,0 +1,31 @@
+.parent{
+    background-color: gold;
+    height: 500px;
+    padding: 10px;
+    scale: 1;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap ;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.parent p{
+    padding: 15px;
+    margin: 15px;
+}
+
+.item1{
+    background-color: green;
+}
+.item2{
+    background-color: red;
+}
+.item3{
+    background-color: blue;
+}
+.item4{
+    color: white;
+    background-color: black;
+}

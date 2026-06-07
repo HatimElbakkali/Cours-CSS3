@@ -1,0 +1,7 @@
+div{
+    height: 300px;
+    border: 6px red solid;
+    background-image: url(Images/images.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+}

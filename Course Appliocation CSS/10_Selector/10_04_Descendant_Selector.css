@@ -1,0 +1,12 @@
+/* Grandson div */
+div p strong{
+    color: blue;
+}
+/* Son div */
+div > p{
+    color: rgb(255, 255, 0);
+}
+
+div ul li{
+    color: brown;
+}

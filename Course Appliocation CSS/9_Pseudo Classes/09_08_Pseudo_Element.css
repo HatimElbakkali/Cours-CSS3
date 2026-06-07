@@ -1,0 +1,36 @@
+p::first-line{
+    color: rgb(255, 0, 0);
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p::first-letter{
+    color: blue;
+    font-size: 80px;
+}
+p::selection{
+    background-color: rgba(255, 0, 0, 0.377);
+    color: rgb(0, 255, 0);
+}
+
+/* p::after{
+    content: '  hatim' ;
+    background-color: aqua;
+    position: relative;
+} */
+
+.hatim{
+    height: 50px;
+    background-color: brown;
+    position: relative;
+}
+
+.hatim::after{
+    content: 'hatim' ;
+    background-color: aqua;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
